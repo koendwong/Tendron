@@ -7,6 +7,7 @@ public class Cluster
       Tendril[] weed = new Tendril[NUM_STEMS];
       for (int i = 0; i < NUM_STEMS; i ++) {  
         weed[i] = new Tendril(len, (float)(Math.random()*360), x, y);
-        weed[i].show();;      }
+        weed[i].show();
+      }
     }
 }
